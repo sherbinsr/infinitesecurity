@@ -3,3 +3,36 @@
 {
     background-color: #D9D9D9;
 }
+
+.safettext
+{
+   font-size: 30px;
+    color: #672D8D;
+    font-family:'Poppins', sans-serif;
+}
+.fa-brands
+{
+    color: grey;
+}
+.fa-solid
+{
+    color: grey;
+}
+.fa-solid:hover
+{
+    color: #672D8D;
+}
+.fa-brands:hover
+{
+    color: #672D8D;
+}
+
+@media only screen and (max-width: 600px) {
+    .safettext
+    {
+       font-size: 25px;
+       display: none;
+        color: #672D8D;
+        font-family:'Poppins', sans-serif;
+    }
+  }
