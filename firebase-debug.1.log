@@ -1,0 +1,33 @@
+[debug] [2023-09-18T08:40:01.590Z] ----------------------------------------------------------------------
+[debug] [2023-09-18T08:40:01.592Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sherb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-09-18T08:40:01.593Z] CLI Version:   12.5.4
+[debug] [2023-09-18T08:40:01.593Z] Platform:      win32
+[debug] [2023-09-18T08:40:01.593Z] Node Version:  v18.12.1
+[debug] [2023-09-18T08:40:01.594Z] Time:          Mon Sep 18 2023 14:10:01 GMT+0530 (India Standard Time)
+[debug] [2023-09-18T08:40:01.595Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-18T08:40:01.708Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-18T08:40:01.709Z] > authorizing via signed-in user (mailtosherbin@gmail.com)
+[debug] [2023-09-18T08:40:01.709Z] [iam] checking project infinitesecurity-ce500 for permissions ["firebase.projects.get"]
+[debug] [2023-09-18T08:40:01.711Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/infinitesecurity-ce500:testIamPermissions [none]
+[debug] [2023-09-18T08:40:01.711Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/infinitesecurity-ce500:testIamPermissions x-goog-quota-user=projects/infinitesecurity-ce500
+[debug] [2023-09-18T08:40:01.711Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/infinitesecurity-ce500:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-09-18T08:40:03.455Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/infinitesecurity-ce500:testIamPermissions 200
+[debug] [2023-09-18T08:40:03.456Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/infinitesecurity-ce500:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-09-18T08:40:03.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 [none]
+[debug] [2023-09-18T08:40:04.268Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 200
+[debug] [2023-09-18T08:40:04.269Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 {"projectId":"infinitesecurity-ce500","projectNumber":"415069677153","displayName":"infinitesecurity","name":"projects/infinitesecurity-ce500","resources":{"hostingSite":"infinitesecurity-ce500"},"state":"ACTIVE","etag":"1_e2e3f775-832b-4cf8-aa3c-a630d4c35ff7"}
+[info] 
+[info] === Serving from 'D:\work\infinitesecurity\infinitesecurity'...
+[info] 
+[debug] [2023-09-18T08:40:04.275Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/infinitesecurity-ce500/sites 
+[debug] [2023-09-18T08:40:05.495Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/infinitesecurity-ce500/sites 200
+[debug] [2023-09-18T08:40:05.496Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/infinitesecurity-ce500/sites {"sites":[{"name":"projects/infinitesecurity-ce500/sites/infinitesecurity-ce500","defaultUrl":"https://infinitesecurity-ce500.web.app","appId":"1:415069677153:web:72b101b254aa8004362c20","type":"DEFAULT_SITE"}]}
+[debug] [2023-09-18T08:40:05.496Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500/webApps/1:415069677153:web:72b101b254aa8004362c20/config [none]
+[debug] [2023-09-18T08:40:06.729Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500/webApps/1:415069677153:web:72b101b254aa8004362c20/config 200
+[debug] [2023-09-18T08:40:06.730Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500/webApps/1:415069677153:web:72b101b254aa8004362c20/config {"projectId":"infinitesecurity-ce500","appId":"1:415069677153:web:72b101b254aa8004362c20","storageBucket":"infinitesecurity-ce500.appspot.com","apiKey":"AIzaSyAHf5XiMY5IO4Mlm65an0hSVfQipa2ren8","authDomain":"infinitesecurity-ce500.firebaseapp.com","messagingSenderId":"415069677153","measurementId":"G-3E88G2KHJW"}
+[debug] [2023-09-18T08:40:06.807Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 [none]
+[debug] [2023-09-18T08:40:07.441Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 200
+[debug] [2023-09-18T08:40:07.441Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/infinitesecurity-ce500 {"projectId":"infinitesecurity-ce500","projectNumber":"415069677153","displayName":"infinitesecurity","name":"projects/infinitesecurity-ce500","resources":{"hostingSite":"infinitesecurity-ce500"},"state":"ACTIVE","etag":"1_e2e3f775-832b-4cf8-aa3c-a630d4c35ff7"}
+[info] i  hosting[infinitesecurity-ce500]: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] +  hosting[infinitesecurity-ce500]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}

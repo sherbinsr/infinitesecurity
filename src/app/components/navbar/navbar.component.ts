@@ -8,15 +8,7 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   
 about(){
-  window.scrollTo(0,400);
+  window.scrollTo(0,500);
 }
   
-service(){
-  window.scrollTo(0,1770);
-}
-  
-home(){
-  window.scrollTo(0,0);
-}
-
 }
