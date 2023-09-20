@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  about(){
+    window.scrollTo(0,610);
+  }
+    
+
 }

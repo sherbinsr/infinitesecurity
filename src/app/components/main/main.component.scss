@@ -1,4 +1,37 @@
-
+/* HEAder */
+header {
+    width: 98vw;
+    height: 99vh;
+    background-image: url("https://img.freepik.com/free-photo/portrait-male-security-guard-with-barbed-wire-fence_23-2150368756.jpg?size=626&ext=jpg&ga=GA1.2.1256887382.1681311643&semt=ais");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content {
+    margin-bottom: 15rem;
+    color:white;
+    text-align: center;
+  }
+  
+  .header-content h2 {
+    font-size: 5cqb;
+    color:white;
+  }
+.header-content h1 {
+    font-size: 6vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .ctn {
+    padding: 8px 15px;
+    background-color:  #672D8D;
+    border-radius: 30px;
+    color: whitesmoke;
+    transition: all 0.3s;
+  }
 .footer
 {
     background-color: #D9D9D9;
