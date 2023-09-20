@@ -9,7 +9,7 @@ export class NavbarComponent {
   
 about(){
 
-  window.scrollTo(0,610);
+  window.scrollTo(0,590);
 }
   
 }

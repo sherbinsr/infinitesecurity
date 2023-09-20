@@ -71,4 +71,14 @@ header {
         color: #672D8D;
         font-family:'Poppins', sans-serif;
     }
+    header {
+      width: 100vw;
+      height: 100vh;
+      background-image: url("https://img.freepik.com/free-photo/portrait-male-security-guard-with-barbed-wire-fence_23-2150368756.jpg?size=626&ext=jpg&ga=GA1.2.1256887382.1681311643&semt=ais");
+      background-position: bottom;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
